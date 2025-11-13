@@ -5,8 +5,6 @@ Volt is an end-to-end, open-source compiler framework for the Vortex open-source
 
 The figure shows an overview of Volt, with the modules extended or introduced by Volt highlighted in blue.
 
----
-
 ## Build Toolchain (Vortex v2, 64-bit)
 
 ### 1. Folder structure
@@ -31,16 +29,12 @@ The figure shows an overview of Volt, with the modules extended or introduced by
 └── vortex
 ```
 
----
-
 ### 2. Set up folders
 
 ```bash
 cd Volt
 mkdir tools 
 ```
-
----
 
 ### 3. Make config file (add into bash file)
 
@@ -52,8 +46,6 @@ mkdir tools
   export POCL_PREFIX=$TOOL_DIR/pocl
   source $PRJ/vortex/build/ci/toolchain_env.sh
 ```
-
----
 
 ### 4. Install vortex 
 
@@ -69,8 +61,6 @@ make -s
 make install
 ./ci/blackbox.sh --cores=2 --app=opencl/vecadd # test
 ```
-
----
 
 ### 5. Install llvm-vortex 
 
@@ -88,8 +78,6 @@ cmake -G "Unix Makefiles" -DLLVM_ABI_BREAKING_CHECKS=FORCE_OFF -DLLVM_INCLUDE_EX
 make -j`nproc`
 make install
 ```
-
----
 
 ### 6. Install pocl vortex
 
@@ -109,8 +97,6 @@ cmake -G "Unix Makefiles" \
 make -j`nproc`
 make install
 ```
-
----
 
 ### 7. Install Cupbop
 ```bash
@@ -149,7 +135,6 @@ cd ./exampless/cfd
 ./kjrun_llvm18.sh
 ```
 
----
 ## Test Toolchain
 
 ### 0. Test Benchmark Location for Each Pipeline 
