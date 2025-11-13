@@ -1,0 +1,16 @@
+[submodule "vortex"]
+	path = vortex
+	url = https://github.com/vortexgpgpu/vortex
+	branch = volt
+[submodule "pocl"]
+	path = pocl
+	url = https://github.com/vortexgpgpu/pocl
+	branch = volt
+[submodule "cupbop"]
+	path = cupbop
+	url = https://github.com/cupbop/CuPBoP
+	branch = main
+[submodule "llvm"]
+	path = llvm
+	url = https://github.com/vortexgpgpu/llvm
+	branch = volt
