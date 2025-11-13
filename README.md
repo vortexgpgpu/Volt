@@ -7,9 +7,9 @@ The figure shows an overview of Volt, with the modules extended or introduced by
 
 ---
 
-# Build Toolchain (Vortex v2, 64-bit)
+## Build Toolchain (Vortex v2, 64-bit)
 
-## 1. Folder structure
+### 1. Folder structure
 
 ```bash
 <VOLT>
@@ -33,7 +33,7 @@ The figure shows an overview of Volt, with the modules extended or introduced by
 
 ---
 
-## 2. Set up folders
+### 2. Set up folders
 
 ```bash
 cd Volt
@@ -42,7 +42,7 @@ mkdir tools
 
 ---
 
-## 3. Make config file (add into bash file)
+### 3. Make config file (add into bash file)
 
 ```bash
   export PRJ=<path-to-volt-folder>
@@ -55,7 +55,7 @@ mkdir tools
 
 ---
 
-## 4. Install vortex 
+### 4. Install vortex 
 
 ```bash
 cd $PRJ/vortex
@@ -72,7 +72,7 @@ make install
 
 ---
 
-## 5. Install llvm-vortex 
+### 5. Install llvm-vortex 
 
 ```bash
 cd $PRJ
@@ -91,7 +91,7 @@ make install
 
 ---
 
-## 6. Install pocl vortex
+### 6. Install pocl vortex
 
 ```bash
 cd $PRJ/pocl
@@ -112,7 +112,7 @@ make install
 
 ---
 
-## 6. Install Cupbop
+### 7. Install Cupbop
 ```bash
 cd $PRJ/CuPBoP
 export CuPBoP_PATH=pwd
@@ -150,26 +150,26 @@ cd ./exampless/cfd
 ```
 
 ---
-# Test Toolchain
+## Test Toolchain
 
-## 0. Test Benchmark Location for Each Pipeline 
+### 0. Test Benchmark Location for Each Pipeline 
 - OpenCL to Vortex pipeline is in vortex/tests/opencl
 - CUDA to Vortex pipeline is in cupbop/examples 
 
-## 1. Test OpenCL Benchmarks with Thread Divergence Optimizations
+### 1. Test OpenCL Benchmarks with Thread Divergence Optimizations
 
 ```bash
 cd $PRJ/tests/test_opencl_w_divergence_opt
 ./run_evaluation.sh
 ```
 
-## 2. Test CuPBoP with ISA extensions
+### 2. Test CuPBoP with ISA extensions
 ```bash
 cd $PRJ/tests/test_cupbop
 ./run_isa_extensions.sh
 ```
 
-## 3. Test CuPBoP with Memory hierarchy support and API support
+### 3. Test CuPBoP with Memory Hierarchy Support and API Support
 ```bash
 cd $PRJ/tests/test_cupbop
 ./run_mem_hierarchy.sh
