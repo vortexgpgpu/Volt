@@ -5,6 +5,24 @@ Volt is an end-to-end, open-source compiler framework for the Vortex open-source
 
 The figure shows an overview of Volt, with the modules extended or introduced by Volt highlighted in blue.
 
+## Citation and Presentation Materials
+### Vortex Tutorials
+- https://vortex.cc.gatech.edu/
+- https://github.com/vortexgpgpu/vortex_tutorials/tree/main
+
+### Arixv Paper 
+```bibtex
+@misc{jeong2025insidevoltdesigningopensource,
+      title={Inside VOLT: Designing an Open-Source GPU Compiler}, 
+      author={Shinnung Jeong and Chihyo Ahn and Huanzhi Pu and Jisheng Zhao and Hyesoon Kim and Blaise Tine},
+      year={2025},
+      eprint={2511.13751},
+      archivePrefix={arXiv},
+      primaryClass={cs.DC},
+      url={https://arxiv.org/abs/2511.13751}, 
+}
+```
+
 ## Build Toolchain (Vortex v2, 64-bit)
 
 ### 1. Folder structure
