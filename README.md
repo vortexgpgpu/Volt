@@ -10,7 +10,7 @@ The figure shows an overview of Volt, with the modules extended or introduced by
 - https://vortex.cc.gatech.edu/
 - https://github.com/vortexgpgpu/vortex_tutorials/tree/main
 
-### Arixv Paper ([link](https://arxiv.org/abs/2511.13751)
+### Arixv Paper ([link](https://arxiv.org/abs/2511.13751))
 ```bibtex
 @misc{jeong2025insidevoltdesigningopensource,
       title={Inside VOLT: Designing an Open-Source GPU Compiler}, 
